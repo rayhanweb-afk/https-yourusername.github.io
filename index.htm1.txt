@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার প্রোফাইল</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        section {
+            background: white;
+            color: #333;
+            max-width: 900px;
+            margin: auto;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #0072ff;
+            margin-bottom: 15px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills span {
+            background: #0072ff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        form button {
+            background: #0072ff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #005fcc;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="your-photo.jpg" alt="আমার ছবি">
+        <h1>আহমেদ রায়হান</h1>
+        <p>ওয়েব ডেভেলপার | ডিজাইনার | প্রযুক্তি প্রেমী</p>
+    </header>
+
+    <section>
+        <h2>আমার সম্পর্কে</h2>
+        <p>আমি একজন আগ্রহী ওয়েব ডেভেলপার, নতুন প্রযুক্তি শেখা এবং সুন্দর ওয়েবসাইট তৈরি করতে ভালোবাসি। আমি সবসময় ক্রিয়েটিভ ও প্রফেশনাল প্রজেক্টে কাজ করতে আগ্রহী।</p>
+    </section>
+
+    <section>
+        <h2>দক্ষতা</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>WordPress</span>
+            <span>Python</span>
+            <span>UI/UX Design</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>যোগাযোগ করুন</h2>
+        <form>
+            <input type="text" placeholder="আপনার নাম" required>
+            <input type="email" placeholder="আপনার ইমেইল" required>
+            <textarea placeholder="আপনার বার্তা" rows="4" required></textarea>
+            <button type="submit">পাঠান</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 আহমেদ রায়হান | সর্বস্বত্ব সংরক্ষিত
+    </footer>
+
+</body>
+</html>
